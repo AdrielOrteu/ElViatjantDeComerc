@@ -1,0 +1,17 @@
+RUN (60.000000): "C:\CorrectionServer\CorrectorsDA\GraphCorrector.exe"  SPANNING_TREE_KRUSKAL PYTHON GENERAR_TIEMPOS PythonSalesMan\main.py
+EJECUTAR CORRECTOR ADA EN DIRECTORIOC:\CorrectionServer\Courses\DA\CORRECTOR SPANNING_TREE_KRUSKAL
+argv[4]=PythonSalesMan\main.py
+PythonSalesMan\main.py
+EJECUTAR (5): Python PythonSalesMan\main.py Authors
+RUN (5.000000): Python PythonSalesMan\main.py Authors
+Traceback (most recent call last):
+  File "C:\CorrectionServer\Courses\DA\CORRECTOR SPANNING_TREE_KRUSKAL\PythonSalesMan\main.py", line 26, in <module>
+    graph.TestNIU(graph.NIUAlumne1)
+  File "C:\CorrectionServer\Courses\DA\CORRECTOR SPANNING_TREE_KRUSKAL\PythonSalesMan\graph.py", line 232, in TestNIU
+    raise Exception('el NIU no correspon a un alumne', niu)
+Exception: ('el NIU no correspon a un alumne', '')
+
+TOTAL TIME=0.049313
+ERROR: Exit code 1 on command Python PythonSalesMan\main.py Authors
+
+TOTAL TIME=0.057686
